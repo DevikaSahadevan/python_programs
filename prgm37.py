@@ -1,0 +1,10 @@
+Datafile.txthonda
+1948 mercedes
+1926 ford 1983
+with open("datafile.txt") as f:
+    content_list = f.readlines()
+print(content_list)
+content_list = [x.strip()
+    for x in content_list]
+print(content_list)
+
